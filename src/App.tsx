@@ -37,7 +37,7 @@ function App() {
         isVisible={isSidebarVisible}
       />
       <NoteEditor
-        note={selectedNote!}
+        note={selectedNote}
         onNoteChange={updateNote}
         onFileUpload={handleFileUpload}
         onBackClick={() => setIsSidebarVisible(true)}
