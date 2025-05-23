@@ -69,7 +69,7 @@ export function NoteEditor({
         onChange={handleContentChange}
       />
       {/* TODO: Buggy */}
-      {/* <AttachmentList noteId={note.id} /> */}
+      <AttachmentList noteId={note.id} />
 
       <div className="p-4 border-t border-gray-200">
         <input
